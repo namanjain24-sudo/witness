@@ -1,0 +1,19 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store
+
+# Run artifacts — traces, videos, HARs are large and regenerable
+artifacts/
+test-results/
+playwright-report/
+*.zip
+*.webm
+
+# Keep eval/results/ — the scorecard history is the accuracy record and is
+# meant to be committed and reviewed over time.
+
+# local
+.env
+.env.*
+*.pdf

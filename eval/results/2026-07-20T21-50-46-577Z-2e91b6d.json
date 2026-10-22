@@ -1,0 +1,289 @@
+{
+  "sha": "2e91b6d",
+  "at": "2026-07-20T21:50:46.603Z",
+  "metrics": {
+    "precision": 1,
+    "recall": 0,
+    "decoyRejection": 1,
+    "exactVerdict": 0.12,
+    "medianMs": 0,
+    "totalCost": 0
+  },
+  "rows": [
+    {
+      "id": "C01",
+      "class": "deterministic",
+      "expected": "CONFIRMED",
+      "got": "NOT_REPRODUCED",
+      "claimed": false,
+      "correct": false,
+      "falsePositive": false,
+      "ms": 0,
+      "cost": 0
+    },
+    {
+      "id": "C02",
+      "class": "deterministic",
+      "expected": "CONFIRMED",
+      "got": "NOT_REPRODUCED",
+      "claimed": false,
+      "correct": false,
+      "falsePositive": false,
+      "ms": 0,
+      "cost": 0
+    },
+    {
+      "id": "C03",
+      "class": "deterministic",
+      "expected": "CONFIRMED",
+      "got": "NOT_REPRODUCED",
+      "claimed": false,
+      "correct": false,
+      "falsePositive": false,
+      "ms": 0,
+      "cost": 0
+    },
+    {
+      "id": "C04",
+      "class": "deterministic",
+      "expected": "CONFIRMED",
+      "got": "NOT_REPRODUCED",
+      "claimed": false,
+      "correct": false,
+      "falsePositive": false,
+      "ms": 0,
+      "cost": 0
+    },
+    {
+      "id": "C05",
+      "class": "deterministic",
+      "expected": "CONFIRMED",
+      "got": "NOT_REPRODUCED",
+      "claimed": false,
+      "correct": false,
+      "falsePositive": false,
+      "ms": 0,
+      "cost": 0
+    },
+    {
+      "id": "C06",
+      "class": "deterministic",
+      "expected": "CONFIRMED",
+      "got": "NOT_REPRODUCED",
+      "claimed": false,
+      "correct": false,
+      "falsePositive": false,
+      "ms": 0,
+      "cost": 0
+    },
+    {
+      "id": "C07",
+      "class": "deterministic",
+      "expected": "CONFIRMED",
+      "got": "NOT_REPRODUCED",
+      "claimed": false,
+      "correct": false,
+      "falsePositive": false,
+      "ms": 0,
+      "cost": 0
+    },
+    {
+      "id": "C08",
+      "class": "deterministic",
+      "expected": "CONFIRMED",
+      "got": "NOT_REPRODUCED",
+      "claimed": false,
+      "correct": false,
+      "falsePositive": false,
+      "ms": 0,
+      "cost": 0
+    },
+    {
+      "id": "C09",
+      "class": "conditional",
+      "expected": "CONFIRMED",
+      "got": "NOT_REPRODUCED",
+      "claimed": false,
+      "correct": false,
+      "falsePositive": false,
+      "ms": 0,
+      "cost": 0
+    },
+    {
+      "id": "C10",
+      "class": "conditional",
+      "expected": "CONFIRMED",
+      "got": "NOT_REPRODUCED",
+      "claimed": false,
+      "correct": false,
+      "falsePositive": false,
+      "ms": 0,
+      "cost": 0
+    },
+    {
+      "id": "C11",
+      "class": "conditional",
+      "expected": "CONFIRMED",
+      "got": "NOT_REPRODUCED",
+      "claimed": false,
+      "correct": false,
+      "falsePositive": false,
+      "ms": 0,
+      "cost": 0
+    },
+    {
+      "id": "C12",
+      "class": "conditional",
+      "expected": "CONFIRMED",
+      "got": "NOT_REPRODUCED",
+      "claimed": false,
+      "correct": false,
+      "falsePositive": false,
+      "ms": 0,
+      "cost": 0
+    },
+    {
+      "id": "C13",
+      "class": "conditional",
+      "expected": "CONFIRMED",
+      "got": "NOT_REPRODUCED",
+      "claimed": false,
+      "correct": false,
+      "falsePositive": false,
+      "ms": 0,
+      "cost": 0
+    },
+    {
+      "id": "C14",
+      "class": "conditional",
+      "expected": "CONFIRMED",
+      "got": "NOT_REPRODUCED",
+      "claimed": false,
+      "correct": false,
+      "falsePositive": false,
+      "ms": 0,
+      "cost": 0
+    },
+    {
+      "id": "C15",
+      "class": "intermittent",
+      "expected": "INTERMITTENT",
+      "got": "NOT_REPRODUCED",
+      "claimed": false,
+      "correct": false,
+      "falsePositive": false,
+      "ms": 0,
+      "cost": 0
+    },
+    {
+      "id": "C16",
+      "class": "intermittent",
+      "expected": "INTERMITTENT",
+      "got": "NOT_REPRODUCED",
+      "claimed": false,
+      "correct": false,
+      "falsePositive": false,
+      "ms": 0,
+      "cost": 0
+    },
+    {
+      "id": "C17",
+      "class": "intermittent",
+      "expected": "INTERMITTENT",
+      "got": "NOT_REPRODUCED",
+      "claimed": false,
+      "correct": false,
+      "falsePositive": false,
+      "ms": 0,
+      "cost": 0
+    },
+    {
+      "id": "C18",
+      "class": "intermittent",
+      "expected": "CONFIRMED",
+      "got": "NOT_REPRODUCED",
+      "claimed": false,
+      "correct": false,
+      "falsePositive": false,
+      "ms": 0,
+      "cost": 0
+    },
+    {
+      "id": "C19",
+      "class": "a11y",
+      "expected": "CONFIRMED",
+      "got": "NOT_REPRODUCED",
+      "claimed": false,
+      "correct": false,
+      "falsePositive": false,
+      "ms": 0,
+      "cost": 0
+    },
+    {
+      "id": "C20",
+      "class": "a11y",
+      "expected": "CONFIRMED",
+      "got": "NOT_REPRODUCED",
+      "claimed": false,
+      "correct": false,
+      "falsePositive": false,
+      "ms": 0,
+      "cost": 0
+    },
+    {
+      "id": "C21",
+      "class": "a11y",
+      "expected": "CONFIRMED",
+      "got": "NOT_REPRODUCED",
+      "claimed": false,
+      "correct": false,
+      "falsePositive": false,
+      "ms": 0,
+      "cost": 0
+    },
+    {
+      "id": "C22",
+      "class": "a11y",
+      "expected": "CONFIRMED",
+      "got": "NOT_REPRODUCED",
+      "claimed": false,
+      "correct": false,
+      "falsePositive": false,
+      "ms": 0,
+      "cost": 0
+    },
+    {
+      "id": "D01",
+      "class": "decoy",
+      "expected": "NOT_REPRODUCED",
+      "got": "NOT_REPRODUCED",
+      "claimed": false,
+      "correct": false,
+      "falsePositive": false,
+      "ms": 0,
+      "cost": 0
+    },
+    {
+      "id": "D02",
+      "class": "decoy",
+      "expected": "NOT_REPRODUCED",
+      "got": "NOT_REPRODUCED",
+      "claimed": false,
+      "correct": false,
+      "falsePositive": false,
+      "ms": 0,
+      "cost": 0
+    },
+    {
+      "id": "D03",
+      "class": "decoy",
+      "expected": "NOT_REPRODUCED",
+      "got": "NOT_REPRODUCED",
+      "claimed": false,
+      "correct": false,
+      "falsePositive": false,
+      "ms": 0,
+      "cost": 0
+    }
+  ]
+}

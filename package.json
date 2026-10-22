@@ -1,0 +1,27 @@
+{
+  "name": "witness",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Bug report in, verified reproduction out. We don't guess — we witnessed it.",
+  "workspaces": [
+    "packages/*",
+    "corpus/buggy-app",
+    "eval"
+  ],
+  "scripts": {
+    "app": "npm run dev -w @witness/buggy-app",
+    "eval": "npm run eval -w @witness/eval",
+    "corpus:verify": "node corpus/smoke.mjs",
+    "test": "vitest run",
+    "typecheck": "tsc -b --force",
+    "lint:doctrine": "node scripts/check-doctrine.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

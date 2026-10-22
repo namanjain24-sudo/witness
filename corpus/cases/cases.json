@@ -1,0 +1,131 @@
+{
+  "$comment": "Vague, human-style reports exactly as a real user would file them. `truth` is the answer key and is stripped before anything reaches the hypothesis engine — see eval/harness.ts.",
+  "app": { "baseUrl": "http://localhost:5178" },
+  "cases": [
+    {
+      "id": "C01",
+      "report": "cart page pe 'Save for later' dabao to kuch hota hi nahi hai",
+      "truth": { "bug": "B01", "verdict": "CONFIRMED", "class": "deterministic" }
+    },
+    {
+      "id": "C02",
+      "report": "Order fails if I write a delivery note. I wrote don't ring the bell and it just broke.",
+      "truth": { "bug": "B02", "verdict": "CONFIRMED", "class": "deterministic" }
+    },
+    {
+      "id": "C03",
+      "report": "checkout keeps saying my email is invalid but it is my real email. meanwhile my friend typed garbage and it went through",
+      "truth": { "bug": "B03", "verdict": "CONFIRMED", "class": "deterministic" }
+    },
+    {
+      "id": "C04",
+      "report": "One of the oil products opens to a blank white page. Others are fine.",
+      "truth": { "bug": "B04", "verdict": "CONFIRMED", "class": "deterministic" }
+    },
+    {
+      "id": "C05",
+      "report": "quantity minus button ko dabate raho to total minus me chala jata hai lol",
+      "truth": { "bug": "B05", "verdict": "CONFIRMED", "class": "deterministic" }
+    },
+    {
+      "id": "C06",
+      "report": "I searched inside my cart and hit remove, and it deleted a completely different item.",
+      "truth": { "bug": "B06", "verdict": "CONFIRMED", "class": "deterministic" }
+    },
+    {
+      "id": "C07",
+      "report": "searching for something we don't stock crashes the whole shop page",
+      "truth": { "bug": "B07", "verdict": "CONFIRMED", "class": "deterministic" }
+    },
+    {
+      "id": "C08",
+      "report": "console is full of red errors on every page, is that normal?",
+      "truth": { "bug": "B08", "verdict": "CONFIRMED", "class": "deterministic" }
+    },
+    {
+      "id": "C09",
+      "report": "phone pe checkout ka button dabta hi nahi. laptop pe theek chalta hai",
+      "truth": { "bug": "B09", "verdict": "CONFIRMED", "class": "conditional" }
+    },
+    {
+      "id": "C10",
+      "report": "I got charged for two orders. Net was slow so I clicked place order again.",
+      "truth": { "bug": "B10", "verdict": "CONFIRMED", "class": "conditional" }
+    },
+    {
+      "id": "C11",
+      "report": "opening the checkout link directly shows a blank page",
+      "truth": { "bug": "B11", "verdict": "CONFIRMED", "class": "conditional" }
+    },
+    {
+      "id": "C12",
+      "report": "cart total dobara kholne pe purana wala dikhata hai, refresh karne pe bhi",
+      "truth": { "bug": "B12", "verdict": "CONFIRMED", "class": "conditional" }
+    },
+    {
+      "id": "C13",
+      "report": "Our German colleague says the bulk price on product pages is way too low.",
+      "truth": { "bug": "B13", "verdict": "CONFIRMED", "class": "conditional" }
+    },
+    {
+      "id": "C14",
+      "report": "on safari the delivery time just says Invalid Date",
+      "truth": { "bug": "B14", "verdict": "CONFIRMED", "class": "conditional" }
+    },
+    {
+      "id": "C15",
+      "report": "adding two things fast sometimes loses one of them from the total",
+      "truth": { "bug": "B15", "verdict": "INTERMITTENT", "class": "intermittent" }
+    },
+    {
+      "id": "C16",
+      "report": "search results kabhi kabhi purane query ke aa jate hain jab fast type karo",
+      "truth": { "bug": "B16", "verdict": "INTERMITTENT", "class": "intermittent" }
+    },
+    {
+      "id": "C17",
+      "report": "sometimes I increase quantity and a second later it jumps back down",
+      "truth": { "bug": "B17", "verdict": "INTERMITTENT", "class": "intermittent" }
+    },
+    {
+      "id": "C18",
+      "report": "double tapped apply on my coupon and got the discount twice",
+      "truth": { "bug": "B18", "verdict": "CONFIRMED", "class": "intermittent" }
+    },
+    {
+      "id": "C19",
+      "report": "my screen reader just says 'edit text' for the search box, no idea what it is",
+      "truth": { "bug": "B19", "verdict": "CONFIRMED", "class": "a11y" }
+    },
+    {
+      "id": "C20",
+      "report": "the SALE tag is basically invisible, can barely read it",
+      "truth": { "bug": "B20", "verdict": "CONFIRMED", "class": "a11y" }
+    },
+    {
+      "id": "C21",
+      "report": "opened the delivery info popup and now escape doesn't close it, stuck with keyboard",
+      "truth": { "bug": "B21", "verdict": "CONFIRMED", "class": "a11y" }
+    },
+    {
+      "id": "C22",
+      "report": "cannot tab to the View details link at all",
+      "truth": { "bug": "B22", "verdict": "CONFIRMED", "class": "a11y" }
+    },
+    {
+      "id": "D01",
+      "report": "SAVE50 coupon is broken, it refuses to apply on my order",
+      "truth": { "bug": null, "verdict": "NOT_REPRODUCED", "class": "decoy" }
+    },
+    {
+      "id": "D02",
+      "report": "the site logs me out randomly and I lose my cart",
+      "truth": { "bug": null, "verdict": "NOT_REPRODUCED", "class": "decoy" }
+    },
+    {
+      "id": "D03",
+      "report": "product images look blurry on my retina macbook",
+      "truth": { "bug": null, "verdict": "NOT_REPRODUCED", "class": "decoy" }
+    }
+  ]
+}
